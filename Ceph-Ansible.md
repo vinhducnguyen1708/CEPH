@@ -96,5 +96,10 @@ ssh-copy-id root@192.168.10.42
 
 - Bước 8: Ping kiểm tra
 ```sh
+ansible -i ceph_inventory all -m ping
+```
+
+- Bước 9: Thực hiện deploy cluster
+```sh
 ansible-playbook -i ceph_inventory site.yml -u root
 ```
