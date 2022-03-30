@@ -8,7 +8,7 @@
 
 ## 1. Mô hình hệ thống triển khai 
 
-![topology](../images/ceph-multi-network-topo.png)
+![topology](images/ceph-multi-network-topo.png)
 
 **Mô tả hệ thống:**
 - Hệ thống CEPH ban đầu:
@@ -194,7 +194,7 @@ backups_baas:
 ```
 *Tính PG theo https://old.ceph.com/pgcalc/*
 
-![pgcalc](../images/ceph-multi-network-pgcalc.png)
+![pgcalc](images/ceph-multi-network-pgcalc.png)
 
 ### 4.3 Thực hiện triển khai Ceph-Ansible
 - Copy SSH key cho các máy chủ trên hệ thống:

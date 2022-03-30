@@ -15,7 +15,7 @@
 - **rgws**: ceph-uv-radosgw
 - **grafana-server**: ceph-uv-mon01
 
-![topo](../images/ceph-cluster-install01.png)
+![topo](images/ceph-cluster-install01.png)
 
 
 ## 3. Triển khai
