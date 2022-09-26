@@ -194,7 +194,7 @@ backups_baas:
 ```
 *Tính PG theo https://old.ceph.com/pgcalc/*
 
-![pgcalc](images/ceph-multi-network-pgcalc.png)
+![pgcalc](../../images/ceph-multi-network-pgcalc.png)
 
 ### 4.3 Thực hiện triển khai Ceph-Ansible
 - Copy SSH key cho các máy chủ trên hệ thống:
