@@ -195,10 +195,17 @@ spec:
     - /dev/vdd
     - /dev/vde
   crush_device_class: backups
+EOF
 ```
 - Xác nhận và triển khai osd trên các node đã chỉ định
 ```sh
 ceph orch apply -i osd.yml
 ```
 
+*Kết quả*
+
+![osd-up](../../images/ceph-adm-osd.png)
+
+
+## Remove an OSD
 
